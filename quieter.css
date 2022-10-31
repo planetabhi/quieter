@@ -1,0 +1,147 @@
+@charset "UTF-8";
+:root {
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+/* www.sargamcolors.com */
+  :root {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    --twitter: #1D9BF0;
+    --yellow8: #584B06;
+    --yellow7: #937C0A;
+    --yellow6: #CEAE0E;
+    --yellow5: #F5CF11;
+    --yellow4: #F7D737;
+    --yellow3: #F8DE5D;
+    --yellow2: #FCF2BC;
+    --yellow1: #FFFDF5;
+    --teal8: #043936;
+    --teal7: #075E5A;
+    --teal6: #09847E;
+    --teal5: #0B9D96;
+    --teal4: #32ADA7;
+    --teal3: #59BCB8;
+    --teal2: #BBE4E2;
+    --teal1: #F6FBF7;
+    --silver8: #100F0F;
+    --silver7: #2C2B2A;
+    --silver6: #72716D;
+    --silver5: #C1BFB9;
+    --silver4: #DBD9D2;
+    --silver3: #E7E5E0;
+    --silver2: #F8F7F6;
+    --silver1: #FFFFFF;
+    --red8: #571211;
+    --red7: #921F1D;
+    --red6: #CC2B28;
+    --red5: #F33330;
+    --red4: #F55451;
+    --red3: #F77472;
+    --red2: #FCC6C5;
+    --red1: #FFF7F7;
+    --pink8: #5A1A39;
+    --pink7: #972B5E;
+    --pink6: #D33C84;
+    --pink5: #FB479D;
+    --pink4: #FC64AD;
+    --pink3: #FC82BC;
+    --pink2: #FECBE4;
+    --pink1: #FFF8FB;
+    --lavender8: #331E3D;
+    --lavender7: #553165;
+    --lavender6: #77458E;
+    --lavender5: #8E52A9;
+    --lavender4: #A06EB7;
+    --lavender3: #B289C5;
+    --lavender2: #DFCFE7;
+    --lavender1: #FAF8FC;
+    --green8: #073C17;
+    --green7: #0C6427;
+    --green6: #118C37;
+    --green5: #14A741;
+    --green4: #3AB55F;
+    --green3: #5FC37E;
+    --green2: #BDE6CA;
+    --green1: #F6FBF7;
+  }  
+ 
+body { 
+  font-family: var(--system-ui) !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important; }
+
+span,
+div,
+article,
+aside,
+main {
+  font-family: var(--system-ui) !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}  
+
+/* Hide */
+div[data-testid="DMDrawer"]{display: none !important;}
+div[aria-label="Timeline: Trending now"]{display: none !important;}
+aside[aria-label="Who to follow"]{opacity: 0.6px;}
+aside[role="complementary"]{ display: none !important;}
+aside[aria-label="Relevant people"]{display: none !important;}
+nav[aria-label="Footer"]{display: none !important;}
+div[data-testid="vibePillImage"]{display: none !important;}
+a[aria-label="Followers you know"]{display: none !important;}
+a[aria-label="Followers you know"]{display: none !important;}
+div[data-testid="UserProfileHeader_Items"]{display: none !important;}
+div[role="progressbar"]{ opacity: 0.32 !important;}
+div[data-testid="sidebarColumn"]{ visibility: hidden;}
+h2[role="heading"]{ display: none !important;}
+div[aria-label="Timeline: Explore"] div div div div[data-testid="eventHero"]{display: none !important;}
+form[aria-label="Search Twitter"][role="search"] {visibility: visible !important;}
+
+/* Style */
+header {margin-left: 1vw}
+main[role="main"] {box-shadow: 0px 8px 24px rgba(44, 43, 42, 0.16); border: none}
+a[aria-label="Tweet"]{background-color: var(--silver8) !important; border-color: none; border-width: none; min-height: 40px !important; width: 136px !important;}
+div[data-testid="tweetButtonInline"]{background-color: var(--silver8) !important; min-height: 40px !important;}
+div[data-testid="Profile_Save_Button"]{ background-color: var(--silver8) !important;}
+div[aria-label="Account menu"] div svg{color: var(--silver6) !important;}
+article[data-testid="tweet"]{padding-top: 12px !important; padding-bottom: 12px !important; border: 0px solid transparent !important;}
+a[aria-label="Settings"] div svg{color: var(--silver6) !important;}
+a[aria-selected="true"] div span{}
+a[aria-selected="true"] div div{background-color: var(--silver8) !important; padding: 0px !important;}
+a[href="/messages/compose"]{background-color: var(--silver8) !important; border-color: none; border-width: none; min-height: 40px !important; width: 136px !important;}
+a[aria-label="Compose a DM"] {display: none !important;}
+div[aria-label="Clear"]{background-color: var(--silver5) !important;}
+div[aria-label="Top Tweets on"] div svg{color: var(--silver6) !important;}
+div[aria-label="More"] div div svg{color: var(--silver6) !important;}
+div[role="menu"] div div div div div a div svg{color: var(--silver6) !important; width: 20px; height: 20px;}
+div[role="menu"] div div div div div a div div span{ font-size: 16px !important; font-weight: 400 !important; line-height: 1.3 !important;}
+div[aria-expanded="true"]
+div[data-testid="primaryColumn"] {border-right-width: 0px !important; border: none}
+nav a div, nav div div{padding: 4px !important;}
+article[role="article"] > div {padding: 12px 12px !important;}
+a[aria-label="Twitter"] div svg{ display: none;}
+div[aria-label="Provides details about verified accounts."] svg{ color: var(--silver8);}
+nav { margin-top: 2.4rem !important;}
+nav a div div,
+nav div div div {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+  padding: 4px !important;
+}
+nav a div div svg,
+nav div div div svg{
+  width: 20px !important;
+  height: 20px !important;
+  color: var(--silver6) !important;
+}
+div[aria-live="polite"] {
+  width: 16px !important;
+  height: 16px !important;
+  text-align: center !important;
+  background-color: var(--twitter) !important;
+  position: absolute !important;
+  left: 0px !important;
+  top: 1px !important;
+}

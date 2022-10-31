@@ -1,0 +1,22 @@
+{
+  "name": "quieter",
+  "version": "1.0.0",
+  "description": "A chrome extension for a quiet and cosy Twitter experience.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetabhi/quieter.git"
+  },
+  "keywords": [
+    "Twiiter",
+    "Chrome",
+    "Extension",
+    "Cosy",
+    "Quiet"
+  ],
+  "author": "Abhimanyu Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planetabhi/quieter/issues"
+  },
+  "homepage": "https://github.com/planetabhi/quieter#readme"
+}

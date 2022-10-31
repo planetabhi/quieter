@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Quieter",
+  "version": "1.0.0",
+  "description": "Quiet and cosy Twitter experience.",
+  "short_name": "Quieter",
+
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["quieter.css"]
+    }
+  ]
+}
